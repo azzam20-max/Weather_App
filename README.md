@@ -1,5 +1,5 @@
 Aplikasi prediksi cuaca
-Link: 
+Link: https://weather-app-sigma-three-37.vercel.app/
 
 Fitur:
 - pencarian lokasi
