@@ -1,0 +1,41 @@
+<!--
+    Weather App (Cek Cuaca) 🌤️
+    Created by: [Your Name]
+    License: MIT
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App (Cek Cuaca) 🌤️</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <style>
+        #map { height: 400px; }
+        .weather-card { border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); }
+        .weather-icon { font-size: 2rem; }
+    </style>
+</head>
+<body>
+    <div class="container mt-5">
+        <h1 class="text-center mb-4">Weather App (Cek Cuaca) 🌤️</h1>
+        <div class="form-group">
+            <input type="text" id="locationInput" class="form-control" placeholder="Enter location">
+        </div>
+        <button id="getWeatherBtn" class="btn btn-primary btn-block mb-4">Get Weather</button>
+        <div id="weatherResult" class="row">
+            <!-- Weather information will be displayed here -->
+        </div>
+        <div id="map" class="mt-4"></div>
+    </div>
+    <footer class="text-center mt-5">
+        <p>Created by: [Your Name]</p>
+        <p>License: MIT</p>
+    </footer>
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
